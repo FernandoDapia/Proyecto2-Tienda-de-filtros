@@ -139,22 +139,20 @@ body {
   background-color: #d1ce90;
 }
 
-
-.mensajeDiv{
-  position:absolute;
-  left:15%;
+.mensajeDiv {
+  position: absolute;
+  left: 15%;
   right: 15%;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  color:#cf2121;
+  color: #cf2121;
   justify-content: center;
   align-items: center;
   align-content: center;
   margin-top: 15px;
   font-size: 20px;
   overflow: hidden;
-  margin:0px;
-  margin-left:-20px;
-
+  margin: 0px;
+  margin-left: -20px;
 }
 
 .card-zapas {
@@ -207,7 +205,6 @@ body {
 #footer {
   margin-top: 10%;
   width: 100%;
-  
 }
 
 .footer-container {
@@ -253,10 +250,10 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    height: 80svh;
     justify-content: center;
     align-items: center;
     margin: 0px auto;
-    padding: 40px 40px;
     background-color: black;
   }
   .footer-container > div {
@@ -290,8 +287,8 @@ body {
   }
 }
 
-@media(max-width:593px){
-  .mensajeDiv{
+@media (max-width: 593px) {
+  .mensajeDiv {
     font-size: 16px;
   }
 }
